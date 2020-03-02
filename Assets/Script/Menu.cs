@@ -24,4 +24,9 @@ public class Menu : MonoBehaviour
         animator.SetTrigger("BotonPlayPulsado");
         Time.timeScale = 1;
     }
+
+    public void Exit()
+    {
+        Application.Quit();
+    }
 }
